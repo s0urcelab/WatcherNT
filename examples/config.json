@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "start_with_windows": false,
+  "programs": [
+    {
+      "name": "示例程序",
+      "executable": "C:\\Apps\\Demo\\demo.exe",
+      "id": "replace-with-a-unique-id",
+      "arguments": [
+        "--port",
+        "8080"
+      ],
+      "working_directory": "C:\\Apps\\Demo",
+      "keep_alive": true,
+      "check_interval": 10,
+      "auto_update": true,
+      "update_interval": 30,
+      "update_interval_unit": "minutes",
+      "update_url": "https://files.example.com/ams",
+      "current_version": "32eda5f",
+      "restart_after_update": true
+    }
+  ]
+}
